@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6ebf1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e7eff3;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.header-left a:hover {
+    background-color: #19262c;
+    color: white;
+}
+
+.header-right input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c9d6dc;
+}
+
+.blogs-container {
+    padding: 20px;
+}
+
+.three-cards { /*3 cards section*/
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0 0 40px 0;
+}
+
+.small-card { /*post card*/
+    display: grid;
+    align-content: space-between;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.small-card-img { /* post image*/
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.card-tags button { /*botones tags*/
+    background-color: #c5ebf0;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 5px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.post-title { /*titulo*/
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post-description { /*descripcion*/
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.card-user { /*imagen usuario*/
+    display: flex;
+    align-items: center;
+}
+
+.card-user img { /*imagen usuario*/
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card-user a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.card-footer { /* include user and time*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer p { /*time*/
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+.wide-card {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 60% auto;
+    padding: 12px;
+    border-radius: 24px;
+    margin: 0 0 40px 0;
+}
+
+.wide-card-img { /* post image*/
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.wide-card-right {
+    padding-left: 24px;
+    display: grid;
+    align-content: space-between;
+}
